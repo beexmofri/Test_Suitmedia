@@ -34,36 +34,38 @@
 
         <EditText
             android:id="@+id/etname"
-            android:hint="@string/nama"
-            android:padding="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/custom_et"/>
+            android:background="@drawable/custom_et"
+            android:hint="@string/nama"
+            android:padding="10dp"
+            android:textColor="@color/black" />
 
         <EditText
             android:id="@+id/etpoli"
-            android:hint="@string/polindrom"
-            android:padding="10dp"
-            android:layout_marginTop="16dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/custom_et"/>
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_et"
+            android:hint="@string/polindrom"
+            android:padding="10dp"
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/btcheck"
-            android:layout_marginTop="16dp"
             android:layout_width="match_parent"
-            android:text="@string/check"
             android:layout_height="wrap_content"
-            android:background="@drawable/custom_bt"/>
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_bt"
+            android:text="@string/check" />
 
         <Button
             android:id="@+id/btnext1"
-            android:layout_marginTop="16dp"
             android:layout_width="match_parent"
-            android:text="@string/next"
             android:layout_height="wrap_content"
-            android:background="@drawable/custom_bt"/>
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_bt"
+            android:text="@string/next" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
