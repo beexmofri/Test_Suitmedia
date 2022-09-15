@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Screen3Fragment">
-    
+    tools:context=".ui.Screen3Fragment">
+
     <LinearLayout
         android:id="@+id/linear2"
         android:layout_width="match_parent"

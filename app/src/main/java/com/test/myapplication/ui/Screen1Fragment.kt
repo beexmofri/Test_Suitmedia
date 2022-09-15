@@ -1,15 +1,14 @@
-package com.test.myapplication
+package com.test.myapplication.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.test.myapplication.databinding.FragmentScreen2Binding
-import com.test.myapplication.databinding.FragmentScreen3Binding
+import com.test.myapplication.databinding.FragmentScreen1Binding
 
-class Screen2Fragment : Fragment() {
-    private var _binding: FragmentScreen2Binding? = null
+class Screen1Fragment : Fragment() {
+    private var _binding: FragmentScreen1Binding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -17,7 +16,7 @@ class Screen2Fragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        _binding = FragmentScreen2Binding.inflate(inflater, container, false)
+        _binding = FragmentScreen1Binding.inflate(inflater, container, false)
         return binding.root
     }
 
